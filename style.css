@@ -1,0 +1,26 @@
+h1 {
+    font-family: cursive;
+    color: orangered;
+    font-size: 300%;
+    text-align: center;
+    text-decoration-line: underline;
+}
+div {
+    font-family: cursive;
+    color: coral;
+    font-size: 200%;
+    text-align: center;
+
+}
+html {
+    background: peachpuff;
+}
+
+.korgi {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%;
+}
+
