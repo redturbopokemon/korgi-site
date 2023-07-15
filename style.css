@@ -24,3 +24,40 @@ html {
     height: 45%;
 }
 
+.korgi:hover {
+    animation-name: korgi;
+    animation-duration: 0.5s;
+}
+
+a {
+    color: orangered;
+
+}
+
+a:hover {
+    color: #ff0900;
+    font-size: 90%;
+    animation-duration: 3s;
+    animation-name: korgi;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes korgi {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: rotate(10deg);
+    }
+    50% {
+        transform: scale(1.2) ;
+    }
+    75% {
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
